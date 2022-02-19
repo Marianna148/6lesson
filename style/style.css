@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "Roboto";
+    src:url("../fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src:url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gray {
+    background-color:  #EBEBEB;
+    padding: 79px 0 144px;
+}
+
+.fix-size {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #000000 ;
+}
+
+.nav {
+    margin-bottom: 162px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*li:not(:last-child)  {
+    margin-right:42px;
+} */
+
+.item + .item {
+    margin-left: 42px;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+.list {
+    color:black
+}
+
+.item.active {
+    color:#500E0A ;
+}
+
+.title {
+    
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    
+    margin-bottom: 60px;
+}
+
+.info-text {
+    
+    color: #727272;
+    width: 540px;
+}
+
+.gray .info-text {
+    margin-bottom: 65px;
+}
+
+.button {
+    width: 228px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+    background-color: #500E0A;
+    border-radius: 7px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+    padding: 105px;
+}
+
+.second-level-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.white .info-text,
+.work-container .info-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.red {
+    background-color:  #500E0A;
+    padding: 100px 0;
+}
+
+.card {
+    width: 141px;
+    height: 50px;
+    color: white;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.third-level-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.card + .card {
+    margin-left: 49px;
+}
+
+.work-container {
+    background-color: #EBEBEB;
+    padding: 100px 0;
+}
+
+.work-container .info-text {
+    margin-bottom: 57px;
+}
+
+.footer {
+    background-color: #500E0A;
+    padding: 50px 0;
+}
+
+.footer-info {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer .third-level-title  {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+    
+
